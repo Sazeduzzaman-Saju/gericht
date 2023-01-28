@@ -1,13 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Bestermind";
+  src: url("./@font/BestermindRegular.woff") format("woff2"),
+    url("./@font/BestermindRegular.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    to left top,
+    #dcca87,
+    #b0a26d,
+    #867c55,
+    #5f583d,
+    #3a3627,
+    #3a3627,
+    #3a3627,
+    #3a3627,
+    #5f583d,
+    #867c55,
+    #b0a26d,
+    #dcca87
+  );
+  outline: 1px solid slategrey;
+}
+
+:root {
+  --main-color: #0c0b08;
+  --primary-color: #dcca87;
+}
+.primary-color {
+  color: #dcca87 !important;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Cormorant Upright", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0c0b08;
+  background-image: url(https://i.ibb.co/c6RxnPd/Vector-14.png);
+  background-size: auto;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #aaaaaa;
+}
+.hero-first {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+}
+
+.swiper-pagination {
+  color: white !important;
+}
+
+nav button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+}
+
+.details_area {
+  background-image: url(https://i.ibb.co/5xpZwst/Group-88-min.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.video_area {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 0, 150, 0.3),
+      rgba(255, 0, 150, 0.3)
+    ),
+    url(https://picsum.photos/id/1043/800/600);
+  background-size: cover;
+  height: 80vh;
+  background-image: url(https://i.ibb.co/92bS2FQ/jason-leung-po-I7-Del-Fi-VA-unsplash-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.details_content {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.history_details,
+.about_details {
+  font-size: 18px !important;
+}
+.section_title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.chef-signature {
+  font-family: "Bestermind", sans-serif;
+  font-size: 3rem;
+}
+
+.text-article {
+  color: white;
+  font-size: 18px;
+}
+.text-article:first-letter {
+  font-family: "Cormorant Upright", serif;
+  color: white;
+  float: left;
+  font-weight: bold;
+  font-size: 60px !important;
+  line-height: 40px;
+  line-height: 4rem;
+  height: 4rem;
+  text-transform: uppercase;
+}
+
+.showcase {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.showcase img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.showcase .overlay {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0, 35, 82, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.showcase h2 {
+  margin-top: 170px;
+  font-size: 3em;
+}
+
+.showcase p {
+  margin-top: 8px;
+  font-size: 1.2em;
 }
