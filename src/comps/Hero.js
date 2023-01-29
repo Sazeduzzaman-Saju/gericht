@@ -4,7 +4,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./Hero.css";
 import { Autoplay, Pagination, Navigation } from "swiper";
-import PrimaryButton from "./PrimaryButton";
 
 export default function Hero() {
     const data = [

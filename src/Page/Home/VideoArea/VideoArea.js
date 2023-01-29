@@ -1,16 +1,27 @@
+import { AiOutlinePlayCircle } from "react-icons/ai";
+
 export const VideoArea = () => {
     return (
-        <section className="video_area mt-24">
+        <section className="video_area mt-24 ">
             <section class="showcase">
                 <img src="https://i.ibb.co/92bS2FQ/jason-leung-po-I7-Del-Fi-VA-unsplash-1.png" alt="s" />
-                <div class="overlay">
-                    <h2>Eyes on </h2>
-                    <button class="inline-flex items-center justify-center w-16 h-16 mr-2 text-pink-100 transition-colors duration-150 border-2 border-amber-500 rounded-full focus:shadow-outline hover:bg-black">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
-                        </svg>
-                    </button>
-                    <p>
+                <div class="overlay bg-red-400">
+                    <h2 className="text-8xl text-black font-bold pb-5">Eyes On </h2>
+                    <div class="wrapper">
+                        <div class="video-main">
+                            <div class="promo-video">
+                                <div class="waves-block">
+                                    <div class="waves wave-1"></div>
+                                    <div class="waves wave-2"></div>
+                                    <div class="waves wave-3"></div>
+                                </div>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=BqI0Q7e4kbk" class="video video-popup mfp-iframe" data-lity>
+                                <AiOutlinePlayCircle className="text-5xl p-2"></AiOutlinePlayCircle>
+                            </a>
+                        </div>
+                    </div>
+                    <p className="text-5xl text-black font-bold pt-5">
                         Our Youtube Chanel
                     </p>
                 </div>
