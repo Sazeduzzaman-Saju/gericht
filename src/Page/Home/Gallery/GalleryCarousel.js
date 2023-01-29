@@ -11,11 +11,12 @@ export default function GalleryCarousel() {
             <Swiper
                 effect={"coverflow"}
                 autoplay={{
-                    delay: 1000,
+                    delay: 2000,
                 }}
                 grabCursor={true}
                 centeredSlides={true}
                 slidesPerView={3}
+                mousewheel={true}
                 coverflowEffect={{
                     rotate: 50,
                     stretch: 0,

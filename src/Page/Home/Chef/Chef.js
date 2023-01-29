@@ -2,11 +2,11 @@ import React from 'react';
 
 const Chef = () => {
     return (
-        <section className='max-w-7xl mx-auto'>
-            <div className='grid grid-cols-2 gap-10'>
+        <section className='max-w-7xl mx-auto centers'>
+            <div className='grid grid-cols-2 gap-10 special '>
                 <div>
-                    <div>
-                        <img className='w-3/4' src="https://i.ibb.co/YW5zzrv/Group-88-1.png" alt="" />
+                    <div className='image-res'>
+                        <img className='w-3/4 ' src="https://i.ibb.co/YW5zzrv/Group-88-1.png" alt="" />
                     </div>
                 </div>
                 <div className="">

@@ -42,12 +42,12 @@ const Special = () => {
                     <img src="https://i.ibb.co/M9whFk7/Frame-17.png" alt="" className="flex flex-row justify-start w-10 pb-2 animate-pulse" />
                     <h1 className='text-6xl primary-color'>Today’s Special</h1>
                 </div>
-                <div className='grid grid-cols-3 gap-10'>
+                <div className='grid grid-cols-3 gap-10 special '>
                     <div className='text-white'>
                         <h1 className='text-4xl text-center mb-3'>
                             Win & Beer
                         </h1>
-                        {data.map((value) => <div key={value.id} className='pt-14'>
+                        {data.map((value) => <div key={value.id} className='pt-14 md:py-8'>
                             <div className='flex flex-row justify-between gap-10'>
                                 <h1 className='text-2xl primary-color'>{value.name}</h1>
                                 <h1 className='text-2xl primary-color'><span>-------------</span></h1>

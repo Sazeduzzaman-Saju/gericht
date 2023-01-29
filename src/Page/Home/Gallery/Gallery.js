@@ -5,8 +5,8 @@ import GalleryCarousel from './GalleryCarousel';
 const Gallery = () => {
     return (
         <section className='max-w-7xl mx-auto pt-24 pb-24'>
-            <div className='grid grid-cols-2'>
-                <div className='w-4/4'>
+            <div className='grid lg:grid-cols-2 sm:gird-cols-1'>
+                <div className=''>
                     <GalleryCarousel></GalleryCarousel>
                 </div>
                 <div className="ml-24">

@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <section className=' pt-20 footer_area'>
-            <div className='max-w-7xl mx-auto grid grid-cols-3 gap-10 text-center'>
+            <div className='max-w-7xl mx-auto grid grid-cols-3 gap-10 text-center special'>
                 <div className='pt-24'>
                     <h1 className='text-3xl primary-color'>Contact Us</h1>
                     <p className='pt-8'>9 W 53rd St, New York, NY 10019, USA</p>

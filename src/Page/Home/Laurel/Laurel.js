@@ -4,12 +4,12 @@ import LaurelFeature from './LaurelFeature/LaurelFeature';
 const Laurel = () => {
     return (
         <section className='laurel_container pt-24 pb-24'>
-            <div className='grid grid-cols-2 gap-10 max-w-7xl mx-auto'>
+            <div className='grid grid-cols-2 gap-10 max-w-7xl mx-auto special'>
                 <div className="p-5 ">
                     <div className="">
-                        <p className="text-white text-2xl font-serif hero-first">Awards & recognition</p>
+                        <p className="text-white text-2xl font-serif hero-first centers">Awards & recognition</p>
                         <img src="https://i.ibb.co/M9whFk7/Frame-17.png" alt="" className="flex flex-row justify-start w-10 pb-2 animate-pulse" />
-                        <h1 className="lg:text-8xl sm:text-4xl pt-5 pb-5 " style={{ color: "var(--primary-color)" }}>
+                        <h1 className="text-8xl centers pt-5 pb-5 " style={{ color: "var(--primary-color)" }}>
                             Our Laurels
                         </h1>
                         <LaurelFeature></LaurelFeature>

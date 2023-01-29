@@ -3,8 +3,8 @@ import PrimaryButton from '../../../comps/PrimaryButton';
 
 const Find = () => {
     return (
-        <section className='pt-24 pb-24 find_area'>
-            <div className='grid grid-cols-2 max-w-7xl mx-auto '>
+        <section className='pt-24 pb-24 find_area ' >
+            <div className='grid grid-cols-2 max-w-7xl mx-auto special centers'>
                 <div>
                     <p className="text-white text-2xl font-serif hero-first">Contact</p>
                     <img src="https://i.ibb.co/M9whFk7/Frame-17.png" alt="" className="flex flex-row justify-start w-10 pb-2 animate-pulse" />
